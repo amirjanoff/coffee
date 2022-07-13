@@ -1,0 +1,10 @@
+.main-header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 44px 0px;
+  &-list  {
+    display: flex;
+    gap: 30px;
+  }
+}

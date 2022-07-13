@@ -1,0 +1,23 @@
+.first-section__inner-content {
+  padding: 117px 85px;
+  max-width: 1280px;
+  border-radius: 10px;
+  background-image: url(../img/bacgraund-section-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  & h2 {
+    color: rgba(254, 252, 247, 1);
+    font-size: 72px;
+    line-height: 72px;
+    max-width: 493px;
+    margin: 0;
+    margin-bottom: 32px;
+  }
+  & p {
+    color: rgba(254, 252, 247, 1);
+    font-size: 16px;
+    max-width: 445px;
+    margin: 0;
+    margin-bottom: 56px;
+  }
+}

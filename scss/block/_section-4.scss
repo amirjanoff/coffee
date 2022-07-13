@@ -1,0 +1,68 @@
+
+.btn-primary {
+  display: inline-block;
+  margin-top: 64px;
+}
+
+.four-section__inner {
+  display: inline-block;
+  margin-left: 85px;
+  &-title {
+    margin-top: 200px;
+    line-height: 32px;
+    font-size: 24px;
+    color: rgba(131, 136, 143, 1);
+    margin-bottom: 80px;
+
+  }
+  &-line {
+    display: flex;
+    align-items: center;
+    
+  }
+  &-oval {
+    display: inline-block;
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    border: 2px solid rgba(14, 135, 132, 1);
+    
+  }
+  &-lin {
+    width: 380px;
+    height: 1px;
+    background-color: rgba(253, 214, 186, 1);
+   border: 2px solid rgba(253, 214, 186, 1);
+  }
+  &-wrapper {
+    display: flex;
+    margin-top: 67px;
+    gap: 95px;
+    
+    & h3 {
+      color: rgba(253, 214, 186, 1);
+      font-size: 72px;
+      line-height: 72px;
+      margin: 0;
+      margin-bottom: 38px;
+    } 
+    & h4 {
+      margin: 0;
+      margin-bottom: 42px;
+      font-size: 32px;
+      line-height: 36px;
+      color: rgba(51, 61, 75, 1);
+      max-width: 255px ;
+
+    }
+    & p {
+      color: rgba(51, 61, 75, 1);
+      line-height: 26px;
+      font-size: 16px;
+      max-width: 285px;
+    }
+  }
+  &-card {
+    max-width: 285px;
+  }
+}

@@ -1,0 +1,26 @@
+.three-section__inner {
+  padding-top: 100px;
+  background-color: rgba(44, 52, 62, 1);
+  border-radius: 10px;
+  max-width: 1280px;
+  margin-top: 200px;
+  &-content {
+    text-align: center;
+    & h2 {
+      color: rgba(254, 252, 247, 1);
+      font-size: 40px;
+      line-height: 48px;
+    }
+    & p {
+      color: rgba(254, 252, 247, 1);
+      max-width: 540px;
+      margin-bottom: 86px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+  }
+  &-wrapper {
+    display: flex;
+  }
+}

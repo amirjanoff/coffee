@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Barlow", sans-serif;
+  font-family: "Fraunces", serif;
+  font-size: 16px;
+  line-height: 26px;
+  
+
+  @media (max-width: $tablet) {
+    background-color: red;
+  }
+}
+
+p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.btn {
+  background-color: rgba(14, 135, 132, 1);
+  color: rgba(254, 252, 247, 1);
+  padding: 15px 30px;
+  border-radius: 6px;
+  font-size: 18px;
+  line-height: 25px;
+  cursor: pointer;
+  &:hover {
+    background-color: rgba(102, 210, 207, 1);
+  }
+}
+
+a {
+  text-decoration: none;
+  color: rgba(131, 136, 143, 1);
+  font-size: 12px;
+  line-height: 15px;
+  &:hover {
+    background-color: rgba(254, 252, 247, 1);
+  }
+}
+
+li {
+  list-style: none;
+}
